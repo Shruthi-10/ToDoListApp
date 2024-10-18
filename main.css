@@ -1,3 +1,65 @@
+/* Basic styling for the body */
 body {
+    font-family: Arial, sans-serif;
     text-align: center;
+    margin: 50px;
+}
+
+/* Style the input field */
+input {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Style the add button */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Add hover effect to the button */
+button:hover {
+    background-color: lightblue;
+}
+
+/* Style the list of tasks */
+ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+/* Style each task item */
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the remove button */
+button:active {
+    background-color: pink;
+}
+
+li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for remove button */
+li button:hover {
+    background-color: #c82333;
 }
